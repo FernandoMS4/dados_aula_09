@@ -1,8 +1,10 @@
-from loguru import logger # type: ignore
+from main_logs import checa_logs,timer_dec
 
-logger.add("meu_app.log")
-
+@checa_logs
+@timer_dec
 def soma(x:int, y:int)->int:
     return x + y
 
-logger.info(soma(45,123))
+soma(1,4)
+soma(6,9)
+soma(322,19293)

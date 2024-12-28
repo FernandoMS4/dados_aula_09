@@ -1,4 +1,4 @@
-import sentry_sdk
+import sentry_sdk # type: ignore
 
 sentry_sdk.init(
     dsn="https://ac5057b07a0267bd86549786ea2fd362@o4508534185984000.ingest.us.sentry.io/4508534202040320",

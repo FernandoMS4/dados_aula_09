@@ -1,0 +1,45 @@
+2024-12-28T19:27:52.660291-0300 ERROR Exceção capturada em 'soma': unsupported operand type(s) for +: 'int' and 'str' main_logs.py
+2024-12-28T19:28:13.568031-0300 ERROR Exceção capturada em 'soma': unsupported operand type(s) for +: 'int' and 'str' main_logs.py
+Traceback (most recent call last):
+
+  File "D:\bootcamp_python\aula_09\exemplo_00.py", line 8, in <module>
+    soma(6,"9")
+    └ <function soma at 0x000001FF3EAE93A0>
+
+> File "D:\bootcamp_python\aula_09\main_logs.py", line 27, in wrapper
+    result = func(*args,**kwargs)
+             │     │      └ {}
+             │     └ (6, '9')
+             └ <function soma at 0x000001FF3EAE39C0>
+
+  File "D:\bootcamp_python\aula_09\exemplo_00.py", line 5, in soma
+    return x + y
+           │   └ '9'
+           └ 6
+
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2024-12-28T19:40:20.174543-0300 ERROR Exceção capturada em 'soma': unsupported operand type(s) for +: 'int' and 'str' main_logs.py
+Traceback (most recent call last):
+
+  File "D:\bootcamp_python\aula_09\exemplo_00.py", line 9, in <module>
+    soma(6,"9")
+    └ <function soma at 0x000002BCA69794E0>
+
+> File "D:\bootcamp_python\aula_09\main_logs.py", line 27, in wrapper
+    result = func(*args,**kwargs)
+             │     │      └ {}
+             │     └ (6, '9')
+             └ <function soma at 0x000002BCA69793A0>
+
+  File "D:\bootcamp_python\aula_09\main_logs.py", line 39, in wrapper
+    result = func(*args,**kwargs)
+             │     │      └ {}
+             │     └ (6, '9')
+             └ <function soma at 0x000002BCA69739C0>
+
+  File "D:\bootcamp_python\aula_09\exemplo_00.py", line 6, in soma
+    return x + y
+           │   └ '9'
+           └ 6
+
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
