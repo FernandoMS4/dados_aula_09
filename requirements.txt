@@ -1,0 +1,6 @@
+certifi==2024.12.14
+colorama==0.4.6
+loguru==0.7.3
+sentry-sdk==2.19.2
+urllib3==2.3.0
+win32_setctime==1.2.0
